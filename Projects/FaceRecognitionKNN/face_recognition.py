@@ -9,8 +9,8 @@ f_01 = np.load('./face_01.npy').reshape(20, 50*50*3)
 f_02 = np.load('./face_02.npy').reshape(20, 50*50*3)
 
 names = {
-	0: 'Sonali',
-	1: 'Sanket'
+	0: 'Sanket',
+	1: 'Avik'
 }
 
 labels = np.zeros((40, 1))
